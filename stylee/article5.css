@@ -1,0 +1,101 @@
+.article_5 {
+    display: flex;
+    margin-top: 48px;
+}
+.article_5 div:first-child{
+    display: flex;
+    flex-direction: column;
+}
+.operator{
+    position: relative;
+    z-index: 3;
+    width: 232px;
+    top: 16px;
+}
+
+.shadow3{
+    width:189px;
+   position: relative;
+   top: 7px;
+   left: 34px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    margin-left: 132px;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+.info div{
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    margin-right: 95px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.info div p:first-child{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+.info div p:last-child{
+    margin-top: 10px;
+}
+@media screen and (max-width: 1439px){
+    .article_5 {margin-top: 25px;}
+    .operator{width: 134px;}
+    .shadow3{
+        width:109px;
+        top: -9px;
+        left: 19px;}
+    .info{
+        margin-left: 76px;
+    margin-top: 42px;}
+    .info div{
+        margin-right: 34px;
+    width: 108px;}
+    .info div:nth-child(2){margin-right: 33px;}
+    .info div p:first-child{font-size: 15px;}
+    .info div p:last-child{
+        margin-top: 5.5px;
+        font-size: 11px;
+        margin-left: 1px;
+}
+    .info div:last-child{
+        width: 92px;
+    }
+}
+@media screen and (max-width: 833px){
+    .article_5 {
+        margin-top: 50px;}
+    .operator , .shadow3{
+        display: none;}
+    .info{
+        flex-wrap: wrap;
+        margin-left: 0px;
+        margin-top: 13px;}
+    .info div{margin-right: 34px;}
+    .info div:nth-child(1){
+        margin-right: 10px;
+        margin-bottom: 12px;
+        width: 88px;}
+    .info div:nth-child(2){
+        margin-right: 96px;
+        width: 100px;}
+    .info div:nth-child(3){
+        margin-right: 33px;
+        width: 108px;}
+    .info div p:first-child{font-size: 12px;}
+    .info div p:last-child{
+        margin-top: 4px;
+        margin-left: 0px;
+    font-size: 10px;}
+    .info div:last-child{
+        width: 92px;
+    }
+
+
+
+
+}

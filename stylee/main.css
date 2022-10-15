@@ -1,0 +1,407 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.kostil{
+    width:84%;
+    margin: 20px auto 0px 121px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+@media screen and (max-width: 833px){
+    .kostil{
+        max-width:430px;
+        margin-left: auto;
+        margin-right:auto;
+        justify-content: center;
+        
+    }
+}
+.format{
+    font-family:  'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 55px;
+    margin-top: 160px;
+}
+.ch__to{
+margin-top: 211px;
+}
+@media screen and (max-width: 1439px){
+
+    .sinxro {
+        width: 64.87px;
+        height: 38.23px;
+    }
+
+    .kostil{
+        margin: 22px 0px 0px 70px;
+    }
+.format{
+        
+    margin-top: 94px;
+    font-size: 32px;
+    }
+    .ch__to{
+        margin-top: 120px;
+    }
+}
+@media screen and (max-width: 833px){
+.format{
+        
+    margin-top: 64px;
+    margin-left: 1px;
+    font-size: 26px;
+    margin-bottom: 0px;
+    }
+    .ch__to{
+        margin-top: 62px;
+    }
+    .sinxro {
+        width: 52.19px;
+        height: 30.75px;
+    }
+    .kostil{
+        margin: 36px 0px 0px 35px;
+    }
+}
+.main-part {
+    background-color: #EFEFEF;
+    padding: 6px 0px 111px 121px;
+    margin: 0px;
+}
+
+.head-text {
+    padding: 77px 0px 62px 0px;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: 'Roboto Slab';
+}
+
+.about-content {
+    width: 790px;
+    height: 451px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 5px;
+}
+
+.text-content {
+    padding: 40px 44px 33px 44px;
+    line-height: 30px;
+    font-size: 20px;
+    
+}
+
+.info-content {
+    display: flex;
+    
+}
+
+.image1 {
+    margin-left: 26px;
+}
+
+.info-content p {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto Slab';
+}
+
+.content-name {
+    margin: 36px 23px 32px 29.4px
+}
+
+.content-name img {
+    padding-top: 24px;
+}
+
+.second-part {
+    background-color: #9DC9C8;
+    padding: 170px 126px 202px 121px;
+}
+
+.top-side h2 {
+    font-size: 55px;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+}
+
+.cost-text {
+    font-size: 25px;
+    padding-top: 53px;
+}
+
+.cost {
+    font-size: 80px;
+    margin-top: -5px;
+}
+
+.down-side {
+    padding-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    font-size: 25px;
+}
+
+.left {
+    min-width: 295px;
+    margin-right: 69px;
+}
+
+.right {
+    min-width: 295px;
+}
+
+.down-side_text {
+    font-size: 18px;
+    padding-top: 16px;
+    line-height: 17px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;    
+}
+
+footer {
+    background-color: #000;
+}
+
+.f-top {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer {
+    padding: 50px 0px 100px 121px;
+}
+
+.sync-footer{
+    width: 115px;
+    height: 68px;
+    
+}
+
+.icons {
+    padding-top: 24px;
+}
+
+.fb-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.wp-icon {
+    width: 34px;
+    height: 34px;
+}
+
+.insta-icon {
+    width: 33px;
+    height: 33px;
+}
+
+.vk-icon {
+    width: 35px;
+    height: 35px;
+}
+
+.icons a {
+    padding-right: 10px;
+}
+
+.right-block {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px;
+    margin-right: 179px;
+}
+
+.right-block a {
+    padding-bottom: 14px;
+    font-size: 25px;
+}
+
+.right-block img {
+    width: 27px;
+    margin-right: 21px;
+}
+
+.f-down p{
+    padding: 140px 0 23px 0;
+    color: #fff;
+    font-size: 18px;
+}
+
+@media only screen and (max-width:1024px) {
+    .about-content {
+        width: 700px;
+        height: 451px;
+    }
+
+    .text-content {
+        padding: 35px;
+    }
+
+}
+
+@media only screen and (max-width:833px) {
+    .main-part {
+        padding: 0 0 52px 70px;
+    }
+
+    .head-text{
+        font-size: 32px;
+    }
+
+    .about-content {
+        width: 458px;
+        height: 260px;
+    }
+
+    .text-content {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 23px 26px 10px 26px;
+    }
+
+    .content-name p {
+        font-size: 17px;
+    }
+
+    .content-name img {
+        width: 18px;
+    }
+
+    .image1 {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+
+@media only screen and (max-width: 656px) {
+        
+    .about-content {
+          width: 408px;  
+    } 
+    
+    .text-content {
+        font-size: 10px;
+    }
+
+    .down-side {   
+        width: 270px;
+        padding-bottom: 63px;
+    }
+
+        
+} 
+
+@media only screen and (max-width: 425px) {
+    .about-content {
+        width: 308px;  
+  } 
+  
+  .text-content {
+      font-size: 10px;
+  }
+
+  .content-name {
+    margin: 0;
+  }
+
+  .content-name p{
+    font-size: 14px;
+    margin: 0;
+    padding-top: 10px;
+  }
+
+
+  .image1 {
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 484px) {
+    .about-content {
+        width: 308px;  
+  } 
+  
+  .text-content {
+      font-size: 10px;
+  }
+
+  .content-name {
+    font-size: 14px;
+  }
+
+  .content-name {
+    margin: 0;
+  }
+
+  .content-name p{
+    font-size: 14px;
+    margin: 0;
+    padding-top: 10px;
+  }
+
+
+  .image1 {
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+    .about-content {
+        width: 308px; 
+        
+  } 
+  
+  .main-part {
+    padding: 0 0 53px 36px;
+    
+  }
+
+    .text-content {
+      font-size: 10px;
+  }
+
+  .second-part {
+    padding: 62px 0 0 35px;
+  }
+
+  .top-side {
+    width: 224px;
+  }
+
+  .top-side h2 {
+    font-size: 26px;
+  }
+
+  .footer {
+    padding: 23px 0 0 56px;
+  }
+
+  .f-top {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right-block {
+    padding-top: 50px;
+  }
+}

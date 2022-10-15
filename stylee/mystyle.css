@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+@media screen and (min-width: 320px)
+{
+
+
+    .container {
+        margin: 0px;
+    }
+
+    .course-programs {
+        display: block;
+        max-width: 186.92px;
+        max-height: 1391.84px;
+        margin: 0px auto 47.16px;
+    }
+
+    .course-program {
+        width: 185.92px;
+        height: 152.84px;
+        background: #FFFFFF;
+        box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+        border-radius: 13.9792px;
+        margin-bottom: 24.16px;
+    }
+    
+    .course-program__image {
+        width: 185.92px;
+        height: 74.56px;
+        border-top-left-radius: 13.9792px;
+        border-top-right-radius: 13.9792px;
+        object-fit: cover;
+        object-position: 0px 30%;
+    }
+
+    .course-program__header {
+        width: 170.08px;
+        font-weight: 700;
+        font-size: 14px;
+        margin: 2.13px 0px 0px 9.32px;
+    }
+
+    .course-program__paragraph {
+        width: 170.08px;
+        font-size: 12px;
+        margin: 15.91px 6.99px 10.72px 10px;
+    }
+
+    .course-program__paragraph_bad {
+        margin-top: 0px;
+    }
+
+    .header {
+        font-family: 'Roboto Slab';
+        margin: -6px 0px 53px 9vw;
+        font-size: 26px;
+        font-weight: 700;
+    }
+}
+
+@media screen and (min-width: 833px)
+{
+
+
+    .container {
+        margin: 0px;
+    }
+
+    .course-programs {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 736.12px;
+        max-height: 619.71px;
+        gap: 21.42px;
+        margin: 0px auto 52.6px;
+    }
+
+    .course-program {
+        width: 231.09px;
+        height: 189.97px;
+        background: #FFFFFF;
+        box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
+        margin: 0px 0px 2.32px 0px;
+    }
+    
+    .course-program__image {
+        width: 231.09px;
+        height: 93px;
+        border-top-left-radius: 17.375px;
+        border-top-right-radius: 17.375px;
+        object-fit: cover;
+        object-position: 0px 30%;
+    }
+
+    .course-program__header {
+        width: 211px;
+        font-weight: 700;
+        font-size: 17px;
+        margin: 4.37px 0px 0px 11.58px;
+    }
+
+    .course-program__paragraph {
+        width: 211px;
+        font-size: 14px;
+        margin: 20.53px 8.69px 13.32px 11px;
+    }
+
+    .course-program__paragraph_bad {
+        margin-top: 0px;
+    }
+
+    .header {
+        font-family: 'Roboto Slab';
+        margin: -5px 0px 77.02px 70px;
+        font-size: 32px;
+        font-weight: 700;
+    }
+}
+
+@media screen and (min-width: 1439px)
+{
+
+
+    .container {
+        margin: 0px;
+    }
+
+    .course-programs {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1271px;
+        max-height: 1070px;
+        gap: 37px;
+        margin: 0px auto 121px;
+    }
+
+    .course-program {
+        width: 399px;
+        height: 328px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 4px;
+    }
+    
+    .course-program__image {
+        width: 399px;
+        height: 160px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        object-fit: cover;
+        object-position: 0px 30%;
+    }
+
+    .course-program__header {
+        width: 365px;
+        font-weight: 700;
+        font-size: 30px;
+        margin: 8px 0px 0px 20px;
+    }
+
+    .course-program__paragraph {
+        width: 365px;
+        font-size: 25px;
+        margin: 35px 14px 23px 18px;
+    }
+
+    .course-program__paragraph_bad {
+        margin-top: 0px;
+    }
+
+    .header {
+        font-family: 'Roboto Slab';
+        margin: 0px 0px 132px 8.4vw;
+        font-size: 55px;
+        font-weight: 700;
+    }
+}
