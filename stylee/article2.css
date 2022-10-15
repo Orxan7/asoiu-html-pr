@@ -1,0 +1,94 @@
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 39px;
+    margin-bottom: 17px;
+    line-height: 1;
+}
+.prosm_kino{
+    width: 567px;
+}
+.prosm_kino p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+.article_2{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.mrdir{
+    position: relative;
+    top:20px;
+    z-index: 3;
+    right: 13px;
+}
+.director{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-right: 125px;
+    top: -9px;
+
+}
+.shadow1{
+    width: 274px;
+   position: relative;
+   left: 19px;
+}
+@media screen and (max-width: 1439px){
+    h1{
+        font-size: 46px;
+        margin-top: 13px;
+        margin-bottom: 0px;
+    }
+    .mrdir{
+        top: 17px;
+        width: 176px;
+        left: 46px;
+    }
+    .shadow1{
+        width: 158px;
+       left: 63px;
+       top: 5px;
+    }
+    .prosm_kino p{
+        font-size: 12px;
+        margin-top: 21px;
+    }
+
+}
+@media screen and (max-width: 833px){
+    h1{
+        font-size: 37px;
+        margin-top: 11.5px;
+        margin-bottom: 0px;
+    }
+    .article_2{
+        display: block;
+      
+    }
+    .director{
+        top: -25px;
+        left: 107px;
+    }
+    .mrdir{
+        top: 24px;
+        width: 141px;
+        left: 59px;
+    }
+    .shadow1{
+        width: 127px;
+       left: 74px;
+       top: 15px;
+    }
+    .prosm_kino p{
+        font-size: 10px;
+        margin-top: 16.5px;
+        margin-left: 0.5px;
+    }
+    .prosm_kino{
+        width: 310px;
+    }
+}
