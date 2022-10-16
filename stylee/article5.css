@@ -10,7 +10,7 @@
     position: relative;
     z-index: 3;
     width: 232px;
-    top: 16px;
+    top: 24px;
 }
 
 .shadow3{
@@ -29,8 +29,8 @@
 .info div{
     display: flex;
     flex-direction: column;
-    max-width: 150px;
-    margin-right: 95px;
+    max-width: 146px;
+    margin-right: 103px;
     font-size: 18px;
     margin-top: 15px;
 }
@@ -44,7 +44,7 @@
 }
 @media screen and (max-width: 1439px){
     .article_5 {margin-top: 25px;}
-    .operator{width: 134px;}
+    .operator{width: 134px; margin-top: -8px;}
     .shadow3{
         width:109px;
         top: -9px;

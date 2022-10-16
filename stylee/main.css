@@ -41,7 +41,7 @@ margin-top: 211px;
     }
 .format{
         
-    margin-top: 94px;
+    margin-top: 102px;
     font-size: 32px;
     }
     .ch__to{
@@ -214,6 +214,7 @@ footer {
 
 .icons a {
     padding-right: 10px;
+    margin-right: 5px;
 }
 
 .right-block {
@@ -236,7 +237,7 @@ footer {
 .f-down p{
     padding: 140px 0 23px 0;
     color: #fff;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 @media only screen and (max-width:1024px) {
