@@ -11,74 +11,13 @@
     display: block;
     font-family: 'Roboto', sans-serif;
 }
-@media screen and (max-width: 833px){
-    .kostil{
-        max-width:430px;
-        margin-left: auto;
-        margin-right:auto;
-        justify-content: center;
-        
-    }
-}
-.format{
-    font-family:  'Roboto Slab', serif;
-    font-weight: bold;
-    font-size: 55px;
-    margin-top: 160px;
-}
-.ch__to{
-margin-top: 211px;
-}
-@media screen and (max-width: 1439px){
 
-    .sinxro {
-        width: 64.87px;
-        height: 38.23px;
-    }
-
-    .kostil{
-        margin: 22px 0px 0px 70px;
-    }
-.format{
-        
-    margin-top: 102px;
-    font-size: 32px;
-    }
-    .ch__to{
-        margin-top: 120px;
-    }
-}
-@media screen and (max-width: 833px){
-.format{
-        
-    margin-top: 64px;
-    margin-left: 1px;
-    font-size: 26px;
-    margin-bottom: 0px;
-    }
-    .ch__to{
-        margin-top: 62px;
-    }
-    .sinxro {
-        width: 52.19px;
-        height: 30.75px;
-    }
-    .kostil{
-        margin: 36px 0px 0px 35px;
-    }
-}
 .main-part {
     background-color: #EFEFEF;
     padding: 6px 0px 111px 121px;
     margin: 0px;
 }
 
-.head-text {
-    padding: 77px 0px 62px 0px;
-    font-size: 55px;
-    font-weight: 700;
-    font-family: 'Roboto Slab';
-}
 
 .about-content {
     width: 790px;
@@ -237,172 +176,402 @@ footer {
 .f-down p{
     padding: 140px 0 23px 0;
     color: #fff;
-    font-size: 14px;
+    font-size: 18px;
 }
 
-@media only screen and (max-width:1024px) {
-    .about-content {
-        width: 700px;
-        height: 451px;
+@media screen and (max-width: 833px){
+    .kostil{
+        max-width:430px;
+        margin-left: auto;
+        margin-right:auto;
+        justify-content: center;
+        
     }
-
-    .text-content {
-        padding: 35px;
-    }
-
 }
 
-@media only screen and (max-width:833px) {
-    .main-part {
-        padding: 0 0 52px 70px;
-    }
+.head-text {
+    padding: 77px 0px 62px 0px;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: 'Roboto Slab';
+}
 
-    .head-text{
+.format{
+    font-family:  'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 55px;
+    margin-top: 160px;
+}
+.ch__to{
+margin-top: 211px;
+}
+@media screen and (max-width: 1439px){
+
+    .sinxro {
+        width: 64.87px;
+        height: 38.23px;
+    }
+    .head-text {
+        padding: 42px 0px 42px 0px;
         font-size: 32px;
     }
+    .kostil{
+        margin: 22px 0px 0px 70px;
+    }
 
+    .main-part {
+        padding: 6px 0px 65px 70px;
+    }
     .about-content {
-        width: 458px;
-        height: 260px;
+        margin-top: -6px;
+        margin-left: 4px;
+        width: 458.12px;
+        height: 261.2px;
+        box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
     }
 
     .text-content {
         font-size: 12px;
-        line-height: 18px;
-        padding: 23px 26px 10px 26px;
+        line-height: 150%;
+        padding: 24px 0px 0px 25px;
+        width: 400px;
     }
-
-    .content-name p {
+    .image1 {
+        width: 110px;
+        height: 97px;
+        margin: 16px 0px 0px 15px;
+    }
+    .info-content p {
         font-size: 17px;
+        margin-top: -1px;
+        margin-left: -13px;
     }
-
     .content-name img {
         width: 18px;
+        height: 18px;
+        margin: -10px 0px 0px -12px;
     }
-
-    .image1 {
-        width: 100px;
-        height: 100px;
-    }
-}
-
-
-
-@media only screen and (max-width: 656px) {
+.format{
         
-    .about-content {
-          width: 408px;  
-    } 
+    margin-top: 102px;
+    font-size: 32px;
+    }
+    .ch__to{
+        margin-top: 120px;
+    }
+
+    .second-part {
+        background-color: #9DC9C8;
+        padding: 97px 126px 118px 70px;
+    }
     
-    .text-content {
+    .top-side h2 {
+        font-size: 32px;
+        font-family: 'Roboto Slab';
+        font-weight: 700;
+    }
+    
+    .cost-text {
+        font-size: 14px;
+        padding-top: 33px;
+    }
+    
+    .cost {
+        font-size: 46px;
+        margin-top: -5px;
+    }
+    
+    .down-side {
+        padding-top: 38px;
+        display: flex;
+        justify-content: space-between;
+        width: 382px;
+        font-size: 14px;
+    }
+    
+    .left {
+        min-width: 0px;
+        margin-right: -51px;
+    }
+    
+    .right {
+        min-width: 0px;
+        
+    }
+    
+    .down-side_text {
+        font-size: 10px;
+        padding-top: 7px;
+        line-height: 10.08px;
+        width: 170px;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: #fff;    
+    }
+    
+    footer {
+        background-color: #000;
+    }
+    
+    .f-top {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    .footer {
+        padding: 29px 0px 24px 71px;
+    }
+    
+    .sync-footer{
+        width: 66.6px;
+        height: 39.38px;
+        
+    }
+    
+    .icons {
+        padding-top: 13px;
+    }
+    
+    .fb-icon {
+        width: 18px;
+        height: 18px;
+        margin-right: -7px;
+        margin-left: -8px;
+    }
+    
+    .wp-icon {
+        width: 19px;
+        height: 19px;
+        margin-left: -4px;
+    }
+    
+    .insta-icon {
+        width: 19px;
+        height: 19px;
+    }
+    
+    .vk-icon {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .icons a {
+        padding-right: 10px;
+        margin-right: 5px;
+    }
+    
+    .right-block {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3px;
+        margin-right: 107px;
+    }
+    
+    .right-block a {
+        padding-bottom: 8px;
+        font-size: 14px;
+    }
+    
+    .right-block img {
+        width: 15px;
+        margin-right: 13px;
+    }
+    
+    .f-down p{
+        padding: 78px 0px 0px 0px;
+        color: #fff;
         font-size: 10px;
     }
+}
 
-    .down-side {   
-        width: 270px;
-        padding-bottom: 63px;
+@media screen and (max-width: 833px){
+.format{
+        
+    margin-top: 64px;
+    margin-left: 1px;
+    font-size: 26px;
+    margin-bottom: 0px;
+    }
+    .ch__to{
+        margin-top: 76px;
+    }
+    .sinxro {
+        width: 52.19px;
+        height: 30.75px;
+    }
+    .kostil{
+        margin: 36px 0px 0px 35px;
     }
 
-        
-} 
+    .head-text {
+        padding: 34px 0px 20px 0px;
+        font-size: 26px;
+        width: 250px;
+        line-height: 26px;
+    }
 
-@media only screen and (max-width: 425px) {
     .about-content {
-        width: 308px;  
-  } 
-  
-  .text-content {
-      font-size: 10px;
-  }
-
-  .content-name {
-    margin: 0;
-  }
-
-  .content-name p{
-    font-size: 14px;
-    margin: 0;
-    padding-top: 10px;
-  }
-
-
-  .image1 {
-    width: 80px;
-    height: 80px;
-    margin: 0;
-    padding: 0 20px;
-  }
-}
-
-@media only screen and (max-width: 484px) {
-    .about-content {
-        width: 308px;  
-  } 
-  
-  .text-content {
-      font-size: 10px;
-  }
-
-  .content-name {
-    font-size: 14px;
-  }
-
-  .content-name {
-    margin: 0;
-  }
-
-  .content-name p{
-    font-size: 14px;
-    margin: 0;
-    padding-top: 10px;
-  }
-
-
-  .image1 {
-    width: 80px;
-    height: 80px;
-    margin: 0;
-    padding: 0 20px;
-  }
-}
-
-@media only screen and (max-width: 376px) {
-    .about-content {
-        width: 308px; 
-        
-  } 
-  
-  .main-part {
-    padding: 0 0 53px 36px;
-    
-  }
+        margin-top: 8px;
+        margin-left: -1px;
+        width: 310.12px;
+        height: 249.2px;
+        box-shadow: 0.579167px 0.579167px 11.5833px rgb(0 0 0 / 25%);
+        border-radius: 17.375px;
+    }
 
     .text-content {
-      font-size: 10px;
-  }
+        font-size: 10px;
+        line-height: 150%;
+        padding: 18px 0px 0px 22px;
+        width: 260px;
+    }
 
-  .second-part {
-    padding: 62px 0 0 35px;
-  }
+    .main-part {
+        padding: 8px 0px 52px 35px;
+    }
+    .second-part {
+        background-color: #9DC9C8;
+        padding: 62px 126px 70px 34px;
+    }
+    
+    .top-side h2 {
+        font-size: 26px;
+        font-family: 'Roboto Slab';
+        font-weight: 700;
+        line-height: 26px;
+    }
+    
+    .cost-text {
+        font-size: 12px;
+        padding-top: 33px;
+    }
+    .image1 {
+        width: 94px;
+        height: 82px;
+        margin: 14px 0px 0px 15px;
+    }
 
-  .top-side {
-    width: 224px;
-  }
-
-  .top-side h2 {
-    font-size: 26px;
-  }
-
-  .footer {
-    padding: 23px 0 0 56px;
-  }
-
-  .f-top {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .right-block {
-    padding-top: 50px;
-  }
+    .info-content p {
+        font-size: 14px;
+        margin-top: -9px;
+        margin-left: -23px;
+    }
+    .content-name img {
+        width: 14px;
+        height: 17px;
+        margin: -6px 0px 0px -22px;
+    }
+    .cost {
+        font-size: 37px;
+        margin-top: -3px;
+    }
+    
+    .down-side {
+        padding-top: 31px;
+        display: flex;
+        justify-content: space-between;
+        width: 308px;
+        font-size: 12px;
+    }
+    
+    .left {
+        min-width: 0px;
+        margin-right: -51px;
+    }
+    
+    .right {
+        min-width: 0px;
+        
+    }
+    
+    .down-side_text {
+        font-size: 10px;
+        padding-top: 6px;
+        line-height: 10.08px;
+        width: 139px;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: #fff;    
+    }
+    
+    footer {
+        background-color: #000;
+    }
+    
+    .f-top {
+        display: block;
+        justify-content: space-between;
+        
+    }
+    
+    .footer {
+        padding: 23px 0px 17px 38px;
+    }
+    
+    .sync-footer{
+        width: 53.6px;
+        height: 31.38px;
+        
+    }
+    
+    .icons {
+        padding-top: 9px;
+    }
+    
+    .fb-icon {
+        width: 14px;
+        height: 14px;
+        margin-right: -8px;
+        margin-left: -10px;
+    }
+    
+    .wp-icon {
+        width: 15px;
+        height: 15px;
+        margin-left: -7px;
+    }
+    
+    .insta-icon {
+        width: 15px;
+        height: 15px;
+    }
+    
+    .vk-icon {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .icons a {
+        padding-right: 10px;
+        margin-right: 5px;
+    }
+    
+    .right-block {
+        display: flex;
+        flex-direction: column;
+        margin-top: 46px;
+        margin-right: 107px;
+    }
+    
+    .right-block a {
+        padding-bottom: 5px;
+        font-size: 12px;
+    }
+    
+    .right-block img {
+        width: 11px;
+        margin-right: 12px;
+    }
+    
+    .f-down p{
+        padding: 48px 0px 0px 0px;
+        color: #fff;
+        font-size: 10px;
+    }
 }

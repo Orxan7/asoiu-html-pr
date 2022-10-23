@@ -65,7 +65,7 @@
     }
     .article_6 div{
         width: 271px;
-        margin-bottom: 11px;
+        margin-bottom: -2px;
         position: static;
     }
     .article_6 div p:last-child{
@@ -76,5 +76,9 @@
     }
     .num__3 , .num__2 , .num__1{
         margin-top: 22px;
+    }
+
+    .num__3 {
+        margin-top: 34px;
     }
 }
